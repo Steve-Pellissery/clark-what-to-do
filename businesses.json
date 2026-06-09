@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Acoustic Java",
+    "category": "coffee food study",
+    "description": "Cozy coffee and study spot near Clark.",
+    "hours": "Check before going",
+    "address": "932 Main St, Worcester, MA",
+    "favorite": true,
+    "map":"https://www.google.com/maps/dir/Clark+University,+950+Main+St,+Worcester,+MA+01610/Acoustic+Java+Roastery+%26+Tasting+Room,+3+Brussels+St,+Worcester,+MA+01610/@42.2463276,-71.8500453,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e38aa31dacf93f:0x55302c069e5d1e52!2m2!1d-71.8245381!2d42.2520353!1m5!1m1!1s0x89e4042def69a6ed:0xb4682ea818be7749!2m2!1d-71.8153168!2d42.2416086!3e3?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "name": "Boomers Sub & Deli",
+    "category": "food lunch dinner sandwich",
+    "description": "Casual place for sandwiches, lunch, and quick food.",
+    "hours": "Check before going",
+    "address": "Worcester, MA"
+  },
+  {
+    "name": "The Woo Bar",
+    "category": "food dinner hangout",
+    "description": "Good option for casual dinner and hanging out.",
+    "hours": "Check before going",
+    "address": "Worcester, MA",
+    "favorite": true
+  },
+
+  {
+    "name": "Jeremiah's Inn",
+    "category": "grocery",
+    "address": "Main St.",
+    "favorite": true,
+    "section": "free"
+  }
+]
+

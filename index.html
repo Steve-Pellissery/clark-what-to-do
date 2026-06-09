@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clark What To Do</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="hero">
+    <h1>Clark What To Do</h1>
+    <p>Find food, coffee, study spots, and local places around Clark.</p>
+
+    <input 
+      type="text" 
+      id="searchInput" 
+      placeholder="Search food, dinner, coffee, study..."
+    >
+
+<div class="filters">
+  <button onclick="filterCategory('food')">🍔 Food</button>
+  <button onclick="filterCategory('coffee')">☕ Coffee</button>
+  <button onclick="filterCategory('study')">📚 Study</button>
+  <button onclick="filterCategory('dinner')">🍽️ Dinner</button>
+</div>
+  </section>
+
+    <main class="layout">
+
+  <section class="main-results">
+    <h2>Search Results</h2>
+    <div id="results" class="cards"></div>
+  </section>
+
+  <aside class="side-panel">
+
+    <div class="side-section">
+      <h3>🔥 Trending Near Clark</h3>
+      <div id="trending" class="mini-cards"></div>
+    </div>
+
+    <div class="side-section">
+      <h3>🎓 Student Discounts</h3>
+      <div id="discounts" class="mini-cards"></div>
+    </div>
+
+    <div class="side-section">
+      <h3>🆓 Free Stuff</h3>
+      <div id="freeStuff" class="mini-cards"></div>
+    </div>
+
+  </aside>
+
+</main>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
